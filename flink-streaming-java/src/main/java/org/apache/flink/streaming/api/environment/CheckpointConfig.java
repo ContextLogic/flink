@@ -263,6 +263,7 @@ public class CheckpointConfig implements java.io.Serializable {
 		this.externalizedCheckpointDirectory = externalizedCheckpointDirectory;
 		this.externalizedCheckpointCleanup = checkNotNull(cleanupMode);
 	}
+
 	/**
 	 * Returns whether checkpoints should be persisted externally.
 	 *
