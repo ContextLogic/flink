@@ -41,6 +41,7 @@ under the License.
 		<module>flink-metrics-jmx</module>
 		<module>flink-metrics-statsd</module>
 		<module>flink-metrics-datadog</module>
+		<module>flink-metrics-prometheus</module>
 	</modules>
 
 	<!-- override these root dependencies as 'provided', so they don't end up
